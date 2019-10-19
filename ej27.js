@@ -18,6 +18,28 @@ let altura = 12;
 
 let base =4;
 
+let cantidadDePersonas = 100;
+
+cantidadDePersonas += 5;
+
+console.log("Cantidad de Personas:" + cantidadDePersonas);
+
+cantidadDePersonas -= 3;
+
+console.log("Cantidad de Personas:" + cantidadDePersonas);
+
+cantidadDePersonas *= 2;
+
+console.log("Cantidad de Personas:" + cantidadDePersonas);
+
+let numeroDeCliente = 143245;
+
+let numeroDeClienteIngresado = "143245";
+
+console.log ("El número ingresado por el cliente es correcto: " + (numeroDeCliente == numeroDeClienteIngresado));
+
+console.log ("El número ingresado por el cliente es correcto: " + (numeroDeCliente === numeroDeClienteIngresado));
+
 console.log(numeroUno+numeroDos);
 
 console.log(numeroUno-numeroDos);
@@ -57,3 +79,7 @@ console.log(ladoUno+ladoDos+ladoTres);
 console.log(altura+base);
 
 console.log(base*altura);
+
+
+
+
